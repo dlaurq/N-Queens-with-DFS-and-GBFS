@@ -75,8 +75,8 @@ const handleClick = () => {
     <main className="bg-zinc-900 min-h-screen text-gray-300 pt-20">
 
       <p className="text-red-500 text-center">**Due to a bug that I cannot fix, the board is drawn only in 8x8</p>
+      <p className="text-amber-600 text-center"><a href="https://github.com/dlaurq/N-Queens-with-DFS-and-GBFS" >Github Repo</a></p>
     
-
 
 
       {/**TITLU + INPUT */}
