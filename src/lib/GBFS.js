@@ -63,7 +63,7 @@ function heuristic(state) {
     const visited = new Set();
 
     while (queue.length > 0) {
-      //queue.sort((a, b) => a.heuristic - b.heuristic);
+      queue.sort((a, b) => a.heuristic - b.heuristic);
       const { state } = queue.shift();
       visited.add(state);
 
