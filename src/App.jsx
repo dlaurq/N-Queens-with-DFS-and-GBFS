@@ -99,7 +99,7 @@ const handleClick = () => {
         </button>
       </header>
 
-      <section className="flex flex-row justify-evenly items-start mt-10">
+      <section className="flex flex-row flex-wrap justify-evenly items-start mt-10">
 
         {/**DFS*/}
         <section className="text-2xl">
