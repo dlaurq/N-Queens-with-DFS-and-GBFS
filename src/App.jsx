@@ -74,9 +74,9 @@ const handleClick = () => {
   return (
     <main className="bg-zinc-900 min-h-screen text-gray-300 pt-20">
 
-      
-      <Board n={8} queens={[0,0,0,0,0,0,0,0]}/>
-       
+      <p className="text-red-500 text-center">**Due to a bug that I cannot fix, the board is drawn only in 8x8</p>
+    
+
 
 
       {/**TITLU + INPUT */}

@@ -85,7 +85,9 @@ function heuristic(state) {
           }
         queue.push({ state: successor, heuristic: heuristic(successor) });
       }
-      
+      if(visited.size > 5000){
+        return { initial:[], visited:[], final:[]}
+      }
     }
   
     // If we've exhausted the search space and haven't found a goal state, return null
